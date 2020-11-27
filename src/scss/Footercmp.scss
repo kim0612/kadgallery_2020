@@ -1,0 +1,16 @@
+footer{
+  .footer{
+    width: 70vw;
+    margin: 18.5vw 0 3.7vw 15vw;
+  }
+}
+
+@media screen and (min-width:1080px)
+{
+  footer{
+    .footer{
+    width: 756px;
+    margin: 200px 0 40px calc(50vw - 378px);
+    }
+  }
+}

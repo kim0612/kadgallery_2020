@@ -1,0 +1,74 @@
+.Contact{
+  width: 100vw;
+  margin: 9.3vw 0 0 0;
+  .grid_one{
+    display: grid;
+    grid-template-columns: auto auto;
+    .img1{
+      width: 20vw;
+      margin-left: 0.4vw;
+    }
+    .grid_two{
+      margin-top: 2.8vw;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      .img2_1, .img2_2, .img2_3{
+        width: 18.5vw;
+      }
+    }
+  }
+
+  .grid_three{
+    margin-top: 7.4vw;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-row-gap: 2.8vw;
+    .address, .location, .tocome{
+      padding-left: 0.4vw;
+      font-size: 2.8vw;
+      font-weight: bold;
+    }
+    .address_s, .location_s{
+      font-size: 2.8vw;
+    }
+    .tocome_s{
+      width: 69.9vw;
+    }
+  }
+}
+  
+
+
+
+@media screen and (min-width:1080px)
+{
+  .Contact{
+    width: 1080px;
+    margin: 100px 0 0 calc(50vw - 540px);
+    .grid_one{
+      .img1{
+        width: 220px;
+      }
+      .grid_two{
+        margin-top: 30px;
+        .img2_1, .img2_2, .img2_3{
+          width: 200px;
+        }
+      }
+    }
+
+    .grid_three{
+      margin-top: 80px;
+      grid-row-gap: 30px;
+      .address, .location, .tocome{
+        font-size: 30px;
+      }
+      .address_s, .location_s{
+        font-size: 30px;
+      }
+      .tocome_s{
+        width: 755px;
+      }
+    }
+  }
+}
