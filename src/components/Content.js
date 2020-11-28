@@ -9,6 +9,7 @@ import StudioUh from '../components/StudioUh';
 import StudioAi from '../components/StudioAi';
 
 import Han1 from './individual/Han1';
+import Han2 from './individual/Han2';
 
 
 function Content(){
@@ -40,8 +41,11 @@ function Content(){
         <Route exact path="/han_1">
           <Han1/>
         </Route>
+        <Route exact path="/han_2">
+          <Han2/>
+        </Route>
       </Switch>
-      
+
     </div>
   );
 }

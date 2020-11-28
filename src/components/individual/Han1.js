@@ -16,8 +16,8 @@ const images = [
     thumbnail: golden,
   },
   {
-    original: golden,
-    thumbnail: golden,
+    original: asdf,
+    thumbnail: asdf,
   },
   {
     original: golden,
@@ -30,7 +30,7 @@ const images = [
   {
     original: golden,
     thumbnail: golden,
-  },
+  }
 ];
 
 function Han1(){
@@ -84,7 +84,7 @@ function Han1(){
       </div>
 
       <div className="imgset">
-        <ImageGallery items={images} showPlayButton={false} showBullets={true}/>
+        <ImageGallery items={images} showPlayButton={false}/>
       </div>
 
 

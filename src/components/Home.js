@@ -4,7 +4,7 @@ import '../scss/Home.scss';
 
 import img1 from '../img/home/1.jpg';
 import img2_1 from '../img/home/2_1.jpg';
-import img2_2 from '../img/home/2_2.jpg';
+import han2_1 from '../img/project/StudioHan/Han_2/1.jpg';
 import img2_3 from '../img/home/2_3.jpg';
 import img2_4 from '../img/home/2_4.jpg';
 import img2_5 from '../img/home/2_5.jpg';
@@ -34,11 +34,13 @@ function Home(){
           <div className="none"></div>
           <div className="pLeader">STUDIO HAN</div>
         </div>
-        <img className="img2_1" src={img2_2} alt="asdf"/>
+        <NavLink exact to="/han_2">
+          <img className="img2_1" src={han2_1} alt="asdf"/>
+        </NavLink>
         <hr/>
         <div className="subs">
           <div className="name">백 승 관</div>
-          <div className="pTitle">DOSAN MUSEUM</div>
+          <div className="pTitle">Gradation</div>
           <div className="none"></div>
           <div className="none"></div>
           <div className="none"></div>
