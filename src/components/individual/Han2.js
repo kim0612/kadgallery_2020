@@ -82,9 +82,9 @@ const images = [
   }
 ];
 
-function Han1(){
+function Han2(){
   return(
-    <div className='Han1'>
+    <div className='individual'>
       
       <img className="mainimg" src={han2_1} alt={"asdf"}/>
 
@@ -141,4 +141,4 @@ function Han1(){
   );
 }
 
-export default Han1;
+export default Han2;
