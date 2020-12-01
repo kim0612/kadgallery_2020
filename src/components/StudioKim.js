@@ -72,9 +72,9 @@ function StudioKim(){
           <img className="thm1" src={kim5_1} alt="asdf"/>
         </NavLink>
         <div className="subs">
-          <div className="pjName"></div>
+          <div className="pjName">公場 [청년 공장]</div>
           <hr/>
-          <div className="pjAuthor"></div>
+          <div className="pjAuthor">유수연</div>
         </div>
         <NavLink exact to="/kim_6">
           <img className="thm1" src={kim6_1} alt="asdf"/>

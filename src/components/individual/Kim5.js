@@ -111,7 +111,49 @@ function kim5(){
       
       <img className="mainimg" src={kim5_1} alt={"asdf"}/>
 
-      
+      <div className="scription">
+        <div className="title">
+          "公場 [청년 공장]"
+        </div>
+        <div className="author">
+        유수연
+        </div>
+        <div className="subs">
+          제 사이트는 동대문 시장과 청계천이 근접해 있습니다. 사이트는 가운데 세로 형태로 이루어진 도로와 중간에 가로로 된 길 사이로 펼쳐져 있는데, 이 도로는 현재 오토바이와 불법 주차된 차량 때문에 통행이 불편합니다. 혼잡한 통행 문제를 해결하기 위해 편리한 통행 방향을 제시해 도로 공간의 입체적 활용으로 단절된 보행 네트워크를 연결하려고 했습니다.
+        </div>
+        <div className="_table">
+          <div className="_line"/>
+          <div className="xy">
+            <div classname="x">대지면적</div>
+            <div className="y">2,419m²</div>
+          </div>
+          <hr/>
+          {/* <div className="_line"/> */}
+          <div className="xy">
+            <div classname="x">대지위치</div>
+            <div className="y">서울 종로구 종로 258 일대</div>
+          </div>
+          {/* <div className="_line"/> */}
+          <hr/>
+          <div className="xy">
+            <div classname="x">지역지구</div>
+            <div className="y">일반 상업지역, 도시 지역</div>
+          </div>
+          {/* <div className="_line"/> */}
+          <hr/>
+          <div className="xy">
+            <div classname="x">주용도</div>
+            <div className="y">상업 시설 (청년 창업 커뮤니티 시설)</div>
+          </div>
+          {/* <div className="_line"/> */}
+          <hr/>
+          <div className="xy">
+            <div classname="x">규모</div>
+            <div className="y">3,470m², 지하2층 지상3층</div>
+          </div>
+          <div className="_line"/>
+        </div>
+      </div>
 
       <div className="imgset">
         <ImageGallery items={images} showPlayButton={false}/>
