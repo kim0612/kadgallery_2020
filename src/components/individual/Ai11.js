@@ -2,8 +2,8 @@ import ImageGallery from 'react-image-gallery';
 
 import '../../scss/individual.scss';
 
-import ai11_1 from '../../img/project/StudioAi/Ai_11/1.jpg';
-import ai11_2 from '../../img/project/StudioAi/Ai_11/2.jpg';
+import ai11_2 from '../../img/project/StudioAi/Ai_11/1.jpg';
+import ai11_1 from '../../img/project/StudioAi/Ai_11/2.jpg';
 import ai11_3 from '../../img/project/StudioAi/Ai_11/3.jpg';
 import ai11_4 from '../../img/project/StudioAi/Ai_11/4.jpg';
 import ai11_5 from '../../img/project/StudioAi/Ai_11/5.jpg';

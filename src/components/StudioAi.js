@@ -12,7 +12,7 @@ import ai7_1 from '../img/project/StudioAi/Ai_7/1.jpg';
 import ai8_1 from '../img/project/StudioAi/Ai_8/1.jpg';
 import ai9_1 from '../img/project/StudioAi/Ai_9/1.jpg';
 import ai10_1 from '../img/project/StudioAi/Ai_10/1.jpg';
-import ai11_1 from '../img/project/StudioAi/Ai_11/1.jpg';
+import ai11_1 from '../img/project/StudioAi/Ai_11/2.jpg';
 
 
 function StudioAi(){

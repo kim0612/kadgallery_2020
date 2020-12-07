@@ -96,7 +96,7 @@ function StudioKim(){
           <img className="thm1" src={kim8_1} alt="asdf"/>
         </NavLink>
         <div className="subs">
-          <div className="pjName">하훼마을</div>
+          <div className="pjName">화훼마을</div>
           <hr/>
           <div className="pjAuthor">이유나</div>
         </div>
